@@ -108,7 +108,7 @@ export default function PrivacyPage() {
             <p className="text-gray-700 mt-2">
               <strong>Email:</strong>{" "}
               <a href="mailto:gomail-support@example.com" className="text-orange-600 hover:text-orange-700">
-                gomail-support@example.com
+                muditrajputpersonal@gmail.com
               </a>
             </p>
           </section>

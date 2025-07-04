@@ -287,8 +287,8 @@ export default function HomePage() {
               </p>
               <p className="text-gray-400">
                 Support:{" "}
-                <a href="mailto:gomail-support@example.com" className="text-orange-400 hover:text-orange-300">
-                  gomail-support@example.com
+                <a href="mailto:muditrajputpersonal@gmail.com" className="text-orange-400 hover:text-orange-300">
+                  muditrajputpersonal@gmail.com
                 </a>
               </p>
             </div>

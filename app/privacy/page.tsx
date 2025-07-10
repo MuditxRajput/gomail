@@ -13,7 +13,7 @@ export default function PrivacyPage() {
               <div className="w-8 h-8 bg-gradient-to-br from-orange-500 to-orange-600 rounded-lg flex items-center justify-center">
                 <Mail className="w-5 h-5 text-white" />
               </div>
-              <span className="text-xl font-bold text-gray-900">Gomaily</span>
+              <span className="text-xl font-bold text-gray-900">Gomailyy</span>
             </Link>
             <Link href="/">
               <Button variant="ghost" className="text-gray-600 hover:text-orange-600">
@@ -33,14 +33,14 @@ export default function PrivacyPage() {
       <section className="mb-6">
         <h2 className="text-xl font-semibold mb-2">1. Introduction</h2>
         <p>
-          GoMail ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our Google Sheets Add-on for mail merge functionality.
+          Gomaily ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our Google Sheets Add-on for mail merge functionality.
         </p>
       </section>
 
       <section className="mb-6">
         <h2 className="text-xl font-semibold mb-2">2. Information We Access</h2>
         <p>
-          GoMail operates entirely within your Google account using Google Apps Script and Google APIs. We may access:
+          Gomaily operates entirely within your Google account using Google Apps Script and Google APIs. We may access:
         </p>
         <ul className="list-disc pl-6 mt-2 space-y-1">
           <li>Data within the <strong>active Google Sheet</strong> where the add-on is running</li>
@@ -70,7 +70,7 @@ export default function PrivacyPage() {
       <section className="mb-6">
         <h2 className="text-xl font-semibold mb-2">4. Why We Request Spreadsheets Scope</h2>
         <p>
-          GoMail uses <code className="bg-gray-100 p-1 rounded">https://www.googleapis.com/auth/spreadsheets</code> to:
+          Gomaily uses <code className="bg-gray-100 p-1 rounded">https://www.googleapis.com/auth/spreadsheets</code> to:
         </p>
         <ul className="list-disc pl-6 mt-2 space-y-1">
           <li>Read/write the active spreadsheet</li>
@@ -101,7 +101,7 @@ export default function PrivacyPage() {
       <section className="mb-6">
         <h2 className="text-xl font-semibold mb-2">7. Your Rights</h2>
         <ul className="list-disc pl-6 mt-2 space-y-1">
-          <li>Revoke GoMail access from your <a href="https://myaccount.google.com/permissions" className="text-blue-600 underline" target="_blank" rel="noopener noreferrer">Google Account</a></li>
+          <li>Revoke Gomaily access from your <a href="https://myaccount.google.com/permissions" className="text-blue-600 underline" target="_blank" rel="noopener noreferrer">Google Account</a></li>
           <li>Uninstall the add-on from your Google Sheets</li>
           <li>Contact us anytime regarding your privacy</li>
         </ul>

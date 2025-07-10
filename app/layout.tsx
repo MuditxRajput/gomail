@@ -6,7 +6,7 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Gomailyy - Send Personalized Emails from Google Sheets",
+  title: "Gomaily - Send Personalized Emails from Google Sheets",
   description:
     "Gomaily is a powerful YAMM alternative for fast, personalized email campaigns. Send personalized emails directly from Google Sheets using Gmail.",
   keywords: "mail merge, Gmail, Google Sheets, email marketing, YAMM alternative, personalized emails",

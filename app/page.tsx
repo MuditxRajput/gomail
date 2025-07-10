@@ -15,7 +15,7 @@ export default function HomePage() {
               <div className="w-8 h-8 bg-gradient-to-br from-orange-500 to-orange-600 rounded-lg flex items-center justify-center">
                 <Mail className="w-5 h-5 text-white" />
               </div>
-              <span className="text-xl font-bold text-gray-900">GoMail</span>
+              <span className="text-xl font-bold text-gray-900">gomaily</span>
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <a href="#features" className="text-gray-600 hover:text-orange-600 transition-colors">
@@ -44,14 +44,14 @@ export default function HomePage() {
                 Send Personalized Emails Directly from <span className="text-orange-600">Google Sheets</span>
               </h1>
               <p className="mt-6 text-xl text-gray-600 leading-relaxed">
-                GoMail is a powerful YAMM alternative for fast, personalized email campaigns
+                gomaily is a powerful YAMM alternative for fast, personalized email campaigns
               </p>
               <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <Button
                   size="lg"
                   className="bg-orange-600 hover:bg-orange-700 text-white rounded-full px-8 py-4 text-lg"
                 >
-                  Install GoMail for Free
+                  Install gomaily for Free
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
                 <Button
@@ -84,7 +84,7 @@ export default function HomePage() {
                   <div className="flex flex-col items-center">
                     <ArrowRight className="w-8 h-8 text-orange-600" />
                     <div className="mt-2 bg-orange-600 text-white px-3 py-1 rounded-full text-xs font-medium">
-                      GoMail
+                      gomaily
                     </div>
                   </div>
                   <div className="bg-white rounded-2xl p-6 shadow-lg">
@@ -180,9 +180,9 @@ export default function HomePage() {
               <div className="w-16 h-16 bg-orange-600 text-white rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold">
                 3
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Launch GoMail</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Launch gomaily</h3>
               <p className="text-gray-600">
-                Open GoMail from your Google Sheets add-ons menu and send personalized emails instantly
+                Open gomaily from your Google Sheets add-ons menu and send personalized emails instantly
               </p>
             </div>
           </div>
@@ -201,7 +201,7 @@ export default function HomePage() {
                 How many emails can I send?
               </AccordionTrigger>
               <AccordionContent className="px-6 pb-4 text-gray-600">
-                GoMail uses your Gmail account's sending limits. For regular Gmail accounts, you can send up to 500
+                gomaily uses your Gmail account's sending limits. For regular Gmail accounts, you can send up to 500
                 emails per day. Google Workspace accounts have higher limits (up to 2,000 emails per day).
               </AccordionContent>
             </AccordionItem>
@@ -210,16 +210,16 @@ export default function HomePage() {
                 Do you store any data?
               </AccordionTrigger>
               <AccordionContent className="px-6 pb-4 text-gray-600">
-                No, we don't store any of your data on external servers. GoMail runs entirely within your Google account
+                No, we don't store any of your data on external servers. gomaily runs entirely within your Google account
                 using Google Apps Script, ensuring your data stays private and secure.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3" className="bg-white rounded-lg border-0 shadow-sm">
               <AccordionTrigger className="px-6 py-4 text-left font-semibold text-gray-900 hover:no-underline">
-                What permissions does GoMail need?
+                What permissions does gomaily need?
               </AccordionTrigger>
               <AccordionContent className="px-6 pb-4 text-gray-600">
-                GoMail needs permission to access your Google Sheets (to read contact data) and Gmail (to send emails
+                gomaily needs permission to access your Google Sheets (to read contact data) and Gmail (to send emails
                 using your drafts). These permissions are standard for mail merge add-ons and are required for the
                 service to function.
               </AccordionContent>
@@ -228,12 +228,12 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* About GoMail */}
+      {/* About gomaily */}
       <section className="py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-8">About GoMail</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-8">About gomaily</h2>
           <p className="text-xl text-gray-600 leading-relaxed">
-            Built on Google Apps Script, GoMail is secure, fast, and tailored for solo founders, teachers, marketers,
+            Built on Google Apps Script, gomaily is secure, fast, and tailored for solo founders, teachers, marketers,
             and small teams. Our mission is to provide a reliable, privacy-focused alternative to traditional mail merge
             tools that keeps your data where it belongs — in your Google account.
           </p>
@@ -259,13 +259,13 @@ export default function HomePage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">Ready to Transform Your Email Campaigns?</h2>
           <p className="text-xl text-orange-100 mb-8">
-            Join thousands of users who trust GoMail for their personalized email marketing
+            Join thousands of users who trust gomaily for their personalized email marketing
           </p>
           <Button
             size="lg"
             className="bg-white text-orange-600 hover:bg-gray-100 rounded-full px-8 py-4 text-lg font-semibold"
           >
-            Try GoMail Now
+            Try gomaily Now
             <ArrowRight className="ml-2 w-5 h-5" />
           </Button>
         </div>
@@ -280,7 +280,7 @@ export default function HomePage() {
                 <div className="w-8 h-8 bg-gradient-to-br from-orange-500 to-orange-600 rounded-lg flex items-center justify-center">
                   <Mail className="w-5 h-5 text-white" />
                 </div>
-                <span className="text-xl font-bold">GoMail</span>
+                <span className="text-xl font-bold">gomaily</span>
               </div>
               <p className="text-gray-400 mb-4">
                 The secure, privacy-focused alternative to YAMM for personalized email campaigns.
@@ -329,7 +329,7 @@ export default function HomePage() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 GoMail. All rights reserved.</p>
+            <p>&copy; 2025 gomaily. All rights reserved.</p>
           </div>
         </div>
       </footer>

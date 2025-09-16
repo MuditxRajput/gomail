@@ -1,38 +1,51 @@
-import type React from "react"
-import type { Metadata } from "next"
-import { Inter } from "next/font/google"
-import "./globals.css"
+import type React from "react";
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import Script from "next/script"; // import Script
+import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] })
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Gomaily - Send Personalized Emails from Google Sheets",
   description:
     "Gomaily is a powerful YAMM alternative for fast, personalized email campaigns. Send personalized emails directly from Google Sheets using Gmail.",
-  keywords: "mail merge, Gmail, Google Sheets, email marketing, YAMM alternative, personalized emails",
-    generator: 'v0.dev'
-}
+  keywords:
+    "mail merge, Gmail, Google Sheets, email marketing, YAMM alternative, personalized emails",
+  generator: "v0.dev",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
-      <head><meta name="google-site-verification" content="3C5yCsWT9EiAJG0DRtOaSeEuxfhe0cctcRUmJLe0Exs" />
-      <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-5RCY019DWD"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+      <head>
+        <meta
+          name="google-site-verification"
+          content="3C5yCsWT9EiAJG0DRtOaSeEuxfhe0cctcRUmJLe0Exs"
+        />
 
-  gtag('config', 'G-5RCY019DWD');
-</script>
-      
+        {/* Google tag (gtag.js) */}
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-5RCY019DWD"
+        />
+        <Script
+          id="google-analytics"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-5RCY019DWD');
+            `,
+          }}
+        />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
-  )
+  );
 }
